@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-sm-7">
           <div class="brownbox">
-            <h3>La base <br> del nostro segreto</h3>
+            <h3>La base <br> del nostro segreto</h3> 
           </div>
           <div class="gelateria-shoutout">
             <h4 class="pacifico">
