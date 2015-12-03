@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="/css/vendor.css">
     <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
     <link href="/cfg-contactform-13/css/contactform.css" rel="stylesheet" type="text/css" />
-    
+    @yield('header')
     <link rel="stylesheet" href="/css/main.css">
     <script src="/js/modernizr.js"></script>
     <link rel="shortcut icon" href="/favicon.ico">
