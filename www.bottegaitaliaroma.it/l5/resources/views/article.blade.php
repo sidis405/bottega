@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
-@section('headers')
+@section('og')
 
-  @include('headers')
+  @include('og')
 
 @stop
 
