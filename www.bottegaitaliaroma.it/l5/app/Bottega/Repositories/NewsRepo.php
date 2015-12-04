@@ -33,12 +33,12 @@ class NewsRepo
 
     public function getPinnedNewsFront()
     {
-        return News::with('featuredImage')->where('featured_image_id', '>', '0')->where('published', 1)->where('fixed', 1)->first();
+        return News::with('featuredImage')->where('featured_image_id', '!=', '')->where('published', 1)->where('fixed', 1)->first();
     } 
 
     public function getNotPinnedFront()
     {
-        return News::with('featuredImage')->where('featured_image_id', '>', '0')->where('published', 1)->where('fixed', 0)->orderBy('position', 'ASC')->get();
+        return News::with('featuredImage')->where('featured_image_id', '!=', '')->where('published', 1)->where('fixed', 0)->orderBy('position', 'ASC')->get();
     } 
 
 

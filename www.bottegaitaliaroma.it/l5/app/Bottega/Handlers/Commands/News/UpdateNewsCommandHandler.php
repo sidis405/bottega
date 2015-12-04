@@ -48,19 +48,23 @@ class UpdateNewsCommandHandler
             $published = '0';
         }
 
-        // dd($fixed);
+        if($command->featured_image_id < 1)
+        {
+            $published = 0;
+            $fixed = 0;
+        }
 
 
         $news_object = News::edit(
             $command->news_id,
             $command->title,
             $command->subtitle,
-        $command->news_id . '-' .str_slug($command->title),
-        $command->excerpt,
-        $command->body,
-        $command->featured_image_id,
-        $fixed,
-        $published
+            $command->news_id . '-' .str_slug($command->title),
+            $command->excerpt,
+            $command->body,
+            $command->featured_image_id,
+            $fixed,
+            $published
             );
 
         $news = $this->repo->save($news_object);
