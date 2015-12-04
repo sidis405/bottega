@@ -1222,6 +1222,11 @@ h1.section-title span {
     color: #fff
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+
+    .news-box {
+        height: 500px;
+    }
+
     .nav-justified li>a {
         font-size: 13px!important
     }
@@ -1292,7 +1297,7 @@ h1.section-title span {
         font-size: 14px!important
     }
     .news-box {
-        min-height: auto;
+        height: auto;
     }
     .oliveoil h2 {
         font-size: 34px
@@ -1381,6 +1386,11 @@ h1.section-title span {
     }    
 }
 @media screen and (max-width: 767px) {
+
+    .news-box {
+        height: auto;
+    }
+
     .menu-header {
         display: block
     }
