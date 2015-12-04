@@ -7,11 +7,11 @@
         <div class="col-md-4">
           <div class="news-box vertical pinned">
               <div class="pin"><!-- <i class="fa fa-star"></i> --></div>           
-              <div class="news-img news-1" style="background: url('/image/{{$pinned->featuredImage->id}}/{{$pinned->featuredImage->file_name}}') no-repeat center center;"></div>           
+              <div class="news-img news-1" style="background: url('/image/{{$pinned->featuredImage->id}}/{{$pinned->featuredImage->file_name}}') no-repeat center center; background-size: cover;"></div>           
               <a href="/news/{{$pinned->slug}}"><h3>{{$pinned->title}}</h3></a>
-                <h4>0{{$pinned->subtitle}}</h4>
+                @if(strlen($pinned->subtitle)) <h4>{{$pinned->subtitle}}</h4> @endif
                 <p>
-                  {{$pinned->excerpt}}
+                  {{tokenTruncate($pinned->excerpt, 185)}}
                 </p>
                 <a class="read-more" href="/news/{{$pinned->slug}}">Leggi di piu</a>
           </div>
@@ -21,11 +21,11 @@
         @foreach($news as $item)
           <div class="col-md-4">
             <div class="news-box vertical">            
-                <div class="news-img news-1" style="background: url('/image/{{$item->featuredImage->id}}/{{$item->featuredImage->file_name}}')  no-repeat center center;"></div>           
+                <div class="news-img news-1" style="background: url('/image/{{$item->featuredImage->id}}/{{$item->featuredImage->file_name}}')  no-repeat center center; background-size: cover;"></div>           
                 <a href="/news/{{$item->slug}}"><h3>{{$item->title}}</h3></a>
-                  <h4>{{$item->subtitle}}</h4>
+                  @if(strlen($item->subtitle))<h4> {{$item->subtitle}}</h4> @endif
                   <p>
-                    {{$item->excerpt}}
+                    {{tokenTruncate($item->excerpt, 185)}}
                   </p>      
                   <a class="read-more" href="/news/{{$item->slug}}">Leggi di piu</a>
             </div>         

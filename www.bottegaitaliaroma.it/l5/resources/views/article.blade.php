@@ -13,7 +13,7 @@
     <div class="container news-page">      
       <div class="row news-content">
         <div class="col-md-6">
-          <div class="news-page-img"></div>          
+          <div class="news-page-img" style="background: url('/image/{{$item->featuredImage->id}}/{{$item->featuredImage->file_name}}') no-repeat center center; background-size: cover;"></div>          
         </div>
         <div class="col-md-6">           
             <h1>{{$item->title}}</h1>

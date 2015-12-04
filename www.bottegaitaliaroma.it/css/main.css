@@ -355,7 +355,8 @@ h1.section-title span {
     margin: 15px 0;
     background: #e8e1c7;
     position: relative;
-    min-height: 527px;
+    /*min-height: 527px;*/
+    height: 475px;
     z-index: 99;
 }
 
@@ -464,7 +465,7 @@ h1.section-title span {
 }
 .news-box h4 {
     color: #8c0000;
-    border-right: 2px solid #00816d;
+    /*border-right: 2px solid #00816d;*/
     padding-right: 30px;
     margin-top: 0;
     margin-bottom: 7px;
@@ -483,7 +484,7 @@ h1.section-title span {
 .news-page .news-page-img {
     width: 100%;
     height: 400px;
-    background: url(../images/news-1.jpg) no-repeat center center;
+    /*background: url(../images/news-1.jpg) no-repeat center center;*/
     background-size: cover;
     margin-top: 20px;
 }
