@@ -55,7 +55,7 @@
                       <h3>Immagine copertina (500x450px)</h3>
                         <div class="form-group">
                           <a id="featured_image_preview">
-                              <div class="thumbnail-preview-add thumbnail-preview-add-featured" @if($news->featured_image_id > 0) style="background: url('/image/{{$news->featuredImage->id}}/{{$news->featuredImage->file_name}}?w=400&h=400&fit=crop') no-repeat center center;" @endif >
+                              <div class="thumbnail-preview-add thumbnail-preview-add-featured" @if($news->featured_image_id > 0) style="background: url('/image/{{$news->featuredImage->id}}/{{$news->featuredImage->file_name}}?w=400&h=400&fit=cover') no-repeat center center;" @endif >
                                 <div class="btn">Scegli immagine di copertina</div>
                               </div>
                           </a>

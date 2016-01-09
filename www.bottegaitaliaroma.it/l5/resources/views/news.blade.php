@@ -7,7 +7,7 @@
         <div class="col-md-4">
           <div class="news-box vertical pinned">
               <div class="pin"><!-- <i class="fa fa-star"></i> --></div>           
-              <div class="news-img news-1" style="background: url('/image/{{$pinned->featuredImage->id}}/{{$pinned->featuredImage->file_name}}') no-repeat center center; background-size: cover;"></div>           
+              <div class="news-img news-1" style="background: url('/image/{{$pinned->featuredImage->id}}/{{$pinned->featuredImage->file_name}}?1') no-repeat center center; background-size: cover;"></div>           
               <a href="/news/{{$pinned->slug}}"><h3>{{$pinned->title}}</h3></a>
                 @if(strlen($pinned->subtitle)) <h4>{{$pinned->subtitle}}</h4> @endif
                 <p>
@@ -21,7 +21,7 @@
         @foreach($news as $item)
           <div class="col-md-4">
             <div class="news-box vertical">            
-                <div class="news-img news-1" style="background: url('/image/{{$item->featuredImage->id}}/{{$item->featuredImage->file_name}}')  no-repeat center center; background-size: cover;"></div>           
+                <div class="news-img news-1" style="background: url('/image/{{$item->featuredImage->id}}/{{$item->featuredImage->file_name}}?1')  no-repeat center center; background-size: cover;"></div>           
                 <a href="/news/{{$item->slug}}"><h3>{{$item->title}}</h3></a>
                   @if(strlen($item->subtitle))<h4> {{$item->subtitle}}</h4> @endif
                   <p>
