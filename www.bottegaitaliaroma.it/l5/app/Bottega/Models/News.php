@@ -14,6 +14,8 @@ class News extends Model implements HasMedia
 
     protected $presenter = 'Bottega\Presenters\NewsPresenter';
 
+    protected $guarded = ['id', 'creted_at', 'updated_at'];
+
     public static function make()
     {
         $item = new static();
@@ -21,7 +23,7 @@ class News extends Model implements HasMedia
         return $item;
     }
 
-    public static function edit($item_id, $title, $subtitle, $slug, $excerpt, $body, $featured_image_id, $fixed, $published)
+    public static function edit($item_id, $title, $subtitle, $slug, $excerpt, $body, $tags, $featured_image_id, $fixed, $published)
     {
         $item = static::find($item_id);
 
@@ -30,6 +32,7 @@ class News extends Model implements HasMedia
         $item->slug = $slug;
         $item->excerpt = $excerpt;
         $item->body = $body;
+        $item->tags = $tags;
         $item->featured_image_id = $featured_image_id;
         $item->fixed = $fixed;
         $item->published = $published;

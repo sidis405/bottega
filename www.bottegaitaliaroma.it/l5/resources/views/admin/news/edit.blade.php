@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="/adm/styles/image-picker.css">
 <link rel="stylesheet" type="text/css" href="/adm/styles/magnific-popup.css">
 <link rel="stylesheet" type="text/css" href="/css/summernote.css">
+<link rel="stylesheet" type="text/css" href="/css/select2.min.css">
 
 @stop
 
@@ -79,6 +80,19 @@
                       </div>
                       
                     </div>
+                    <div class="col-md-12">
+                      <h3 style="font-weight:600">Tags</h3>
+                      <div class="input-material">                      
+                        <label for="" class="label-material"></label>
+                        <select class="form-control" name="tags[]" id="tags" multiple="multiple">
+                            @if(strlen($news->tags) >0)
+                                @foreach(explode(',', $news->tags) as $tag)
+                                  <option selected="selected">{{$tag}}</option>
+                                @endforeach
+                            @endif
+                          </select>
+                      </div>
+                    </div>
                   </div>
               </div>
 
@@ -89,8 +103,9 @@
         
           <div class="card-body">
               <div class="row">
-                <div class="col-md-12 centered">
-                   <div class="input-matesrial">                      
+                <div class="col-md-12">
+                <h3 style="font-weight:600">Corpo news</h3>
+                   <div class="input-material">                      
                         <label for="" class="label-material"></label>
                         <textarea name="body" id="body" cols="60" rows="7" required>{{ old('body', $news->body) }}</textarea>
                       </div>
@@ -126,6 +141,7 @@
 <script type="text/javascript" src="/adm/scripts/jquery.magnific-popup.min.js"></script>
 <script type="text/javascript" src="/js/summernote.js"></script>
 <script type="text/javascript" src="/js/summernote-bindings.js"></script>
+<script type="text/javascript" src="/js/select2.full.min.js"></script>
 
 <script type="text/javascript">
     
@@ -137,6 +153,10 @@
       gallery:{
         enabled:true
       }
+    });
+
+    $("#tags").select2({
+      tags: true
     });
 }
 

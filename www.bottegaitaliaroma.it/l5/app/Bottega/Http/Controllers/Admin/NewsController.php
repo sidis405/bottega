@@ -61,6 +61,8 @@ class NewsController extends Controller
     {
         $news = $news_repo->getById($id);
 
+        // return $news;
+
         return view('admin.news.edit', compact('news'));
     }
 
@@ -73,6 +75,9 @@ class NewsController extends Controller
      */
     public function update(Request $request, $id)
     {
+        // return $request->input();
+
+
         $news = $this->dispatchFrom('Bottega\Commands\News\UpdateNewsCommand', $request);
 
         flash()->success('News aggiornata correttamente.');

@@ -1,3 +1,7 @@
+<meta name="description" content="{{$item->excerpt}}">
+@if(strlen($item->tags))
+ <meta name="keywords" content="{{str_replace(',', ', ', $item->tags)}}">
+ @endif
 <meta property="og:title" content="{{$item->title}}" />
 <meta property="og:site_name" content="Bottega Italia"/>
 <meta property="og:url" content="http://bottegaitaliaroma.it/news/{{$item->slug}}" />

@@ -54,6 +54,8 @@ class UpdateNewsCommandHandler
             $fixed = 0;
         }
 
+        $tags = (count($command->tags)) ? join(',',$command->tags) : null;
+
 
         $news_object = News::edit(
             $command->news_id,
@@ -62,10 +64,12 @@ class UpdateNewsCommandHandler
             $command->news_id . '-' .str_slug($command->title),
             $command->excerpt,
             $command->body,
+            $tags,
             $command->featured_image_id,
             $fixed,
             $published
             );
+        // dd($news_object);
 
         $news = $this->repo->save($news_object);
 
