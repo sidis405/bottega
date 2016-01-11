@@ -20,6 +20,7 @@ class CreateNewsTable extends Migration
             $table->string('excerpt');
             $table->text('body');
             $table->text('tags')->nullable();
+            $table->text('seo_description')->nullable();
             $table->integer('position')->nullable();
             $table->integer('fixed')->default(0);
             $table->integer('published')->default(0);

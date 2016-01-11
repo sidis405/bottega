@@ -59,12 +59,12 @@
       </div>
       <nav class="navbar">
         <ul class="nav nav-justified">
-          <li {{ checkActivePath('ristorante')}} ><a class="" href="ristorante.html">Ristorante</a></li>
-          <li {{ checkActivePath('gelateria')}} ><a href="gelateria.html">Pasticceria e Gelateria</a></li>
-          <li {{ checkActivePath('caffe')}} ><a class="" href="caffe.html">Caffè</a></li>
-          <li {{ checkActivePath('friggitoria')}} ><a class="" href="friggitoria.html">Friggitoria</a></li>
-          <li {{ checkActivePath('market')}} ><a class="" href="market.html">Market</a></li>
-          <li class="last {{ checkActivePath('pizza', true)}}"><a href="pizza.html">Pizza e Grill</a></li>
+          <li {{ checkActivePath('ristorante')}} ><a class="" href="/ristorante.html">Ristorante</a></li>
+          <li {{ checkActivePath('gelateria')}} ><a href="/gelateria.html">Pasticceria e Gelateria</a></li>
+          <li {{ checkActivePath('caffe')}} ><a class="" href="/caffe.html">Caffè</a></li>
+          <li {{ checkActivePath('friggitoria')}} ><a class="" href="/friggitoria.html">Friggitoria</a></li>
+          <li {{ checkActivePath('market')}} ><a class="" href="/market.html">Market</a></li>
+          <li class="last {{ checkActivePath('pizza', true)}}"><a href="/pizza.html">Pizza e Grill</a></li>
         </ul>
       </nav>
     </div>

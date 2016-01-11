@@ -23,7 +23,7 @@ class News extends Model implements HasMedia
         return $item;
     }
 
-    public static function edit($item_id, $title, $subtitle, $slug, $excerpt, $body, $tags, $featured_image_id, $fixed, $published)
+    public static function edit($item_id, $title, $subtitle, $slug, $excerpt, $body, $tags, $seo_description, $featured_image_id, $fixed, $published)
     {
         $item = static::find($item_id);
 
@@ -33,6 +33,7 @@ class News extends Model implements HasMedia
         $item->excerpt = $excerpt;
         $item->body = $body;
         $item->tags = $tags;
+        $item->seo_description = $seo_description;
         $item->featured_image_id = $featured_image_id;
         $item->fixed = $fixed;
         $item->published = $published;

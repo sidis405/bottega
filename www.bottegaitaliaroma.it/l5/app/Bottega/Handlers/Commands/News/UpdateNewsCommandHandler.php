@@ -65,6 +65,7 @@ class UpdateNewsCommandHandler
             $command->excerpt,
             $command->body,
             $tags,
+            $command->seo_description,
             $command->featured_image_id,
             $fixed,
             $published

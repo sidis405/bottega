@@ -12,6 +12,6 @@ abstract class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     function __construct() {
-        view()->share('title', 'Bottega | Italia');
+        view()->share('title', 'Bottega Italia');
     }
 }

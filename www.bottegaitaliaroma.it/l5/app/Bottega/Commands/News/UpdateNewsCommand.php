@@ -16,13 +16,14 @@ class UpdateNewsCommand extends Command
       public $news_id;
       public $fixed;
       public $published;
+      public $seo_description;
 
     /**
      * Update a command instance.
      *
      * @return void
      */
-    public function __construct($title, $subtitle, $excerpt, $body, $featured_image_id, $news_id, $fixed = 0, $published = 0, $tags = [] )
+    public function __construct($title, $subtitle, $excerpt, $body, $featured_image_id, $news_id, $fixed = 0, $published = 0, $tags = [] , $seo_description = null)
     {
         $this->title = $title;
         $this->subtitle = $subtitle;
@@ -33,5 +34,6 @@ class UpdateNewsCommand extends Command
         $this->news_id = $news_id;
         $this->fixed = $fixed;
         $this->published = $published;
+        $this->seo_description = $seo_description;
     }
 }

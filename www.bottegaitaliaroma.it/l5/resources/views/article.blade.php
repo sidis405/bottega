@@ -48,7 +48,7 @@
 
     @section('footer_scripts')
     <script>
-      document.title = '{{$item->title}} | Bottega | Italia';
+      document.title = '{{$item->title}} | Bottega Italia';
         
     </script>
 

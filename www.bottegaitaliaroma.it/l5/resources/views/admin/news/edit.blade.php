@@ -80,23 +80,41 @@
                       </div>
                       
                     </div>
-                    <div class="col-md-12">
-                      <h3 style="font-weight:600">Tags</h3>
-                      <div class="input-material">                      
-                        <label for="" class="label-material"></label>
-                        <select class="form-control" name="tags[]" id="tags" multiple="multiple">
-                            @if(strlen($news->tags) >0)
-                                @foreach(explode(',', $news->tags) as $tag)
-                                  <option selected="selected">{{$tag}}</option>
-                                @endforeach
-                            @endif
-                          </select>
-                      </div>
-                    </div>
+                    
                   </div>
               </div>
 
             </div>
+
+            <div class="card card-add-project">
+        
+          <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3 style="font-weight:600">Tags Seo</h3>
+                  <div class="input-material">                      
+                    <label for="" class="label-material"></label>
+                    <select class="form-control" name="tags[]" id="tags" multiple="multiple">
+                        @if(strlen($news->tags) >0)
+                            @foreach(explode(',', $news->tags) as $tag)
+                              <option selected="selected">{{$tag}}</option>
+                            @endforeach
+                        @endif
+                      </select>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <h3 style="font-weight:600">Descrizione SEO</h3>
+                    <div class="input-material">                      
+                      <label for="" class="label-material"></label>
+                      <textarea class="input-field-material" name="seo_description" id="seo_description" cols="60" rows="2" required>{{ old('seo_description', $news->seo_description) }}</textarea>
+                    </div>
+                </div>
+               
+              </div>
+          </div>
+
+        </div>
             
 
         <div class="card card-add-project">
