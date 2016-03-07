@@ -23,11 +23,11 @@
               <div class="separator-darr"></div>
               <h2>Centrifugati</h2>
               <div class="separator-uarr"></div>
-              <p>Arancia, carota, mela, menta</p>
-              <p>Sedano, finocchio, lime, zenzero</p>
-              <p>Uva, pera, arancia, zenzero</p>
-              <p>Sedano, cetriolo, mela, carota</p>
               <p>Ananas, mela, carota, zenzero</p>
+              <p>Arancia, carota, limone, menta</p>
+              <p>Mela, kiwi, ananas, menta</p>
+              <p>Mango, carota, arancia</p>
+              <p>Kiwi, sedano, melone</p>
               <p style="margin-top: 88px;">               
               </p>
             </div>
@@ -54,7 +54,7 @@
                     <h4>In Bottiglia</h4>
                     <p>4 luppoli (chiara)</p>
                     <p>Artigianale “Angelo” <br> (Pale Ale ⁄ Brown Ale)</p>
-                    
+                    <p>10 luppoli Le Bollicine (birra Champagne)</p>
                   </div>
                 </div>
               </div>              

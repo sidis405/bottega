@@ -1557,8 +1557,7 @@ nav.navbar {
     font-size: 18px
 }
 .nav-justified>.active>a,
-.nav-justified>.active>a:hover,
-.nav-justified>.active>a:focus {
+.nav-justified>.active>a:hover {
     color: #8c0000
 }
 @media (max-width: 767px) {

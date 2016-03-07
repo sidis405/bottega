@@ -30,14 +30,13 @@
       <div class="row">
         <div class="col-sm-7">
           <ul>
-            <li>Fiori di zucca ripieni di ricotta e pomodori secchi</li>
-            <li>Arancini siciliani al cartoccio</li>
-            <li>Pizzottelle Napoletane con pomodoro fresco e basilico</li>
-            <li>Bocconcini di pollo con corn flakes e salsa barbecue fatta in casa</li>
-            <li>Crocchette di patate aromatizzate</li>
-            <li>Filetti di baccalà</li>
-            <li>Calamari e gamberi</li>
-            <li>FRITTO DI VERDURE IN TEMPURA</li>
+            <li>Fiori di zucca alla romana</li>
+            <li>Crocchette di melanzane alla parmigiana</li>
+            <li>Arancini siciliani</li>
+            <li>Pizzottelle napoletane</li>
+            <li>Verdure in tempura</li>
+            <li>Polpettine di neonata</li>
+            <li>calamari e gamberi</li>            
          <!-- </ul><a href="#" class="btn btn-primary bigred btn-block">scarica il menù</a>-->
         </div>
         <div class="col-sm-5"><img src="images/inostrifritti.jpg" class="img-responsive"></div>

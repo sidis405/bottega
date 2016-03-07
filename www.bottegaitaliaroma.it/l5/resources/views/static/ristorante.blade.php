@@ -13,8 +13,8 @@
       </div>
       <div class="transparent-box">
         <div class="row">
-          <div class="col-sm-6"><a target="_blank" href="download/menu-pranzo.pdf" class="btn btn-primary">scarica il menu del pranzo</a></div>
-          <div class="col-sm-6"><a target="_blank" href="download/menu-cena.pdf" class="btn btn-primary btn-azure">scarica il menu della cena</a></div>
+          <div class="col-sm-6"><a target="_blank" href="download/bottega-menu-ita.pdf" class="btn btn-primary">Scarica il menu di Bottega Italia</a></div>
+          <div class="col-sm-6"><a target="_blank" href="download/bottega-menu-eng.pdf" class="btn btn-primary btn-azure">Download Bottega Italia's menu</a></div>
         </div>
       </div>
     </div>
@@ -24,46 +24,42 @@
         <div class="special-box">
           <div class="row">
             <div class="col-sm-6">
-              <div class="separator-darr"></div>
+              <!-- <div class="separator-darr"></div>
               <h3>a Pranzo</h3>
-              <div class="separator-uarr"></div>
-              <p><span>Terrina di uova biologica-vegetariana</span>
-                Con cime di rapa, taleggio, salsa di pecorino romano DOP
+              <div class="separator-uarr"></div> -->
+              <p style="margin-top: 25px;"><span>CARPACCIO DI GAMBERI ROSSI</span>
+                con insalatina di rucola e frutti di bosco
               </p>
-              <p><span>Spaghetti di Gragnano alla carbonara </span>
-                Con guanciale Levoni, uova bio, pecorino romano DOP
+              <p><span>BACCALA' </span>
+                su vellutata di ceci e pomodori confit
               </p>
-              <p><span>Hamburger "Bottega Italia"</span>
+              <p><span>CARPACCIO DI MANZO AFFUMICATO</span>
                 Carne di manzo italiana con formaggio, pomodoro, peperoni, lattuga e salsa fatta in casa, contorno
               </p>
-              <p><span>Patate Bio al forno</span>
-                Con aglio, olio EVO di Modica DOP e rosmarino
+              <p><span>GNOCCO</span>
+                con ceci, cozze e pecorino
               </p>
-              <p><span>Misticanza</span>
-                Insalata di campo con rucola, mela, uvetta, frutta secca e scaglie di parmigiano
+              <p><span>QUADRONI DI PASTA AL TIMO</span>
+                con faraona al vino rosso
               </p>
-              <p><span>Tiramisù al pistacchio di Bronte</span></p>
+              <p><span>RAVIOLONI DI CALAMARI E GAMBERI</span></p>
             </div>
             <div class="col-sm-6">
-              <div class="separator-darr"></div>
+              <!-- <div class="separator-darr"></div>
               <h3>a Cena</h3>
-              <div class="separator-uarr"></div>
-              <p><span>Salmone disidratato al profumo di erbe </span>
-                Con pane tostato e mozzarella di bufala DOP
+              <div class="separator-uarr"></div> -->
+              <p style="margin-top: 25px;"><span>LA TRADIZIONE</span>
+                Amatriciana, Carbonara, Gricia, Cacio e Pepe
               </p>
-              <p><span>Spaghetti alla Bottarga</span>
-                Bottarga di tonno di Marzamemi, pesto di basilico e pistacchi di Bronte
+              <p><span>HAMBURGER BOTTEGA ITALIA</span>               
               </p>
-              <p><span>Tonno in crosta di sesamo e papavero</span>
-                 Con crema di broccolo romanesco
+              <p><span>STINCO DI MAIALE AL TEGAME</span>                 
               </p>
-              <p><span>suprema di pollo al rosmarino e timo</span>
-                
+              <p><span>SALMONE AL VINO BIANCO</span>                
               </p>
-              <p><span>Misticanza</span>
-                Insalata di campo con rucola, mela, uvetta, frutta secca e scaglie di parmigiano
+              <p><span>TIRAMISU'</span>                
               </p>
-              <p><span>TORTINO DI RICOTTA E MARRON GLACé E CIOCCOLATO FUSO</span>
+              <p><span>CANNOLO SICILIANO</span>
                 
               </p>
             </div>
