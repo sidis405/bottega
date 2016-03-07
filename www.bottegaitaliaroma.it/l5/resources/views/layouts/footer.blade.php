@@ -51,72 +51,9 @@
           <div class="col-md-3">
             <div class="footer-col">
               <h2 class="arvo">Info e Prenotazioni</h2>
-                            <div class="cfg-contactform" id="cfg-contactform-13">
-
-                <div class="cfg-contactform-content">
-
-
-
-
-                <div class="cfg-element-container">
-
-                  <label class="cfg-label" id="cfg-element-13-6-label" ><span style="display: none;" class="cfg-label-value">Nome</span><span class="cfg-required"></span></label>
-
-                  <div class="cfg-element-set" id="cfg-element-13-6-set" >
-                    <div class="cfg-element-content">
-                    <input type="text" class="cfg-type-text cfg-form-value " placeholder="Nome" name="cfg-element-13-6" id="cfg-element-13-6"  />
-                    </div>
-                  </div>
-
-                  <div class="cfg-clear"></div>
-                </div>
-
-
-                <div class="cfg-element-container">
-
-                  <label class="cfg-label" id="cfg-element-13-7-label" ><span style="display: none;" class="cfg-label-value">Email address</span><span class="cfg-required"></span></label>
-
-                  <div class="cfg-element-set" id="cfg-element-13-7-set" >
-                    <div class="cfg-element-content">
-                    <input type="text" class="cfg-type-text cfg-form-value " placeholder="Indirizzo E-mail" name="cfg-element-13-7" id="cfg-element-13-7"  />
-                    </div>
-                  </div>
-
-                  <div class="cfg-clear"></div>
-                </div>
-
-
-                <div class="cfg-element-container">
-
-                  <label class="cfg-label" id="cfg-element-13-8-label" ><span style="display: none;" class="cfg-label-value">Messaggio</span><span class="cfg-required"></span></label>
-
-                  <div class="cfg-element-set" id="cfg-element-13-8-set" >
-                    <div class="cfg-element-content">
-                    <textarea class="cfg-type-textarea cfg-form-value " placeholder="Messaggio" name="cfg-element-13-8" id="cfg-element-13-8" rows="2" ></textarea>
-                    </div>
-                  </div>
-
-                  <div class="cfg-clear"></div>
-                </div>
-
-
-                <div class="cfg-element-container">
-
-                  <div class="cfg-element-set" id="cfg-element-13-9-set" >
-                    <div class="cfg-element-content">
-                    <input type="submit" class="cfg-submit " name="cfg-element-13-9" id="cfg-element-13-9" value=">> Invia <<"   />
-                    </div>
-                  </div>
-                </div>
-
-
-
-
-                <div class="cfg-loading">&nbsp;</div>
-
-                </div><!-- cfg-contactform-content -->
-
-            </div><!-- cfg-contactform -->
+              <a href="#test-modal" class="open-popup-link">
+                <img class="img-responsive" src="/images/btn-prenota.jpg" alt="">
+              </a>
             </div>
           </div>
           <div class="col-md-3">
@@ -128,7 +65,7 @@
           </div>
         </div>
         <div class="botbar">
-          <p class="arvo">&copy; 2015 Bottega Italia. Tutti i diritti riservati.<span>Web Design by <a href="http://www.officine06.com" target="_blank">Officine06</a></span></p>
+          <p class="arvo">&copy; 2016 Bottega Italia. Tutti i diritti riservati.<span>Web Design by <a href="http://www.officine06.com" target="_blank">Officine06</a></span></p>
         </div>
       </div>
     </div>

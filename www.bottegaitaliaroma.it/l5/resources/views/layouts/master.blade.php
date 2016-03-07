@@ -70,5 +70,13 @@
     </div>
     @yield('content')
     @include('layouts.footer')
+
+    <div id="test-modal" class="white-popup mfp-hide">
+      <div align="center">
+      <iframe src=" https://module.lafourchette.com/it_IT/module/202304-8dbef " 
+      width="100%" marginwidth="0" height="652" marginheight="0" scrolling="No" 
+      frameborder="0"></iframe></div>
+      </div>
+
   </body>
 </html>

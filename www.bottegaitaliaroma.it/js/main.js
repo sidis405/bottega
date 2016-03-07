@@ -18,3 +18,8 @@ $('.social-share a').click(function(e){
     window.open($(this).attr('href'), $(this).data('title'), 'height=320, width=640, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, directories=no, status=no');
 
 });
+
+$('.open-popup-link').magnificPopup({
+  type:'inline',
+  midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+});

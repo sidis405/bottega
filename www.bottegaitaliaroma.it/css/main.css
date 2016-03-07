@@ -4,6 +4,15 @@ body {
     background-attachment: fixed
 }
 
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
 #mc_embed_signup {
     background: transparent;
     text-align: center;
