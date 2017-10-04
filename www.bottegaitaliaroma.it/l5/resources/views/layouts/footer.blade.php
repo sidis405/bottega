@@ -52,7 +52,12 @@
             <div class="footer-col">
               <h2 class="arvo">Info e Prenotazioni</h2>
               <a href="#test-modal" class="open-popup-link">
-                <img class="img-responsive" src="/images/btn-prenota.jpg" alt="">
+                <img class="img-responsive" src="/images/btn-prenota.png" alt="">
+              </a>
+              
+              <a href="/team-building.html" class="team-building">
+                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                Organizza un team building
               </a>
             </div>
           </div>
@@ -65,7 +70,7 @@
           </div>
         </div>
         <div class="botbar">
-          <p class="arvo">&copy; 2016 Bottega Italia. Tutti i diritti riservati.<span>Web Design by <a href="http://www.officine06.com" target="_blank">Officine06</a></span></p>
+          <p class="arvo">&copy; 2017 Bottega Italia. Tutti i diritti riservati.<span>Web Design by <a href="//www.officine06.com" target="_blank">Officine06</a></span></p>
         </div>
       </div>
     </div>

@@ -4,6 +4,8 @@ Route::get('/', '\Bottega\Http\Controllers\HomeController@index');
 Route::get('news/{slug}', '\Bottega\Http\Controllers\HomeController@article');
 
 Route::get('index.html', '\Bottega\Http\Controllers\HomeController@index');
+// Route::get('team-building.html', '\Bottega\Http\Controllers\PagesController@team_building');
+// Route::get('info-clienti.html', '\Bottega\Http\Controllers\StaticController@info_clienti');
 
 Route::get('{param}.html', '\Bottega\Http\Controllers\StaticController@catch_all');
 

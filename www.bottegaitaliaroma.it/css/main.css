@@ -4,6 +4,65 @@ body {
     background-attachment: fixed
 }
 
+nav.navbar {
+    border: 2px solid #00816d;
+    border-radius: 0;
+    padding: 5px;
+    margin: 15px 0
+}
+.nav {
+    text-transform: uppercase;
+    border: 2px dotted #00816d;
+    border-radius: 0;
+    text-align: center;
+}
+.nav li {
+    display: inline-block;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    position: relative
+}
+.nav li:after {
+    content: "/";
+    position: absolute;
+    right: -2px;
+    top: 35%
+}
+.nav li.last:after {
+    content: ""
+}
+.nav>li>a {
+    padding: 30px;
+    margin-bottom: 0;
+    color: #000;
+    text-align: center;
+    background: 0 0;
+    font-size: 18px;
+    position: relative;
+    font-family: 'Fjalla one'
+}
+.nav>li>a:hover,
+.nav>li>a.current {
+    color: #8c0000;
+    background: 0 0;
+    font-size: 18px
+}
+.nav>.active>a,
+.nav>.active>a:hover {
+    color: #8c0000
+}
+
+.team-building i {
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+.team-building {
+    display: block;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
 .white-popup {
   position: relative;
   background: #FFF;
@@ -1236,7 +1295,7 @@ h1.section-title span {
         height: 500px;
     }
 
-    .nav-justified li>a {
+    .nav li>a {
         font-size: 13px!important
     }
     .oliveoil h2 {
@@ -1301,8 +1360,8 @@ h1.section-title span {
     }    
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .nav-justified li>a {
-        padding: 20px 5px!important;
+    .nav li>a {
+        padding: 20px 10px!important;
         font-size: 14px!important
     }
     .news-box {
@@ -1395,7 +1454,9 @@ h1.section-title span {
     }    
 }
 @media screen and (max-width: 767px) {
-
+    .nav>li>a {
+        padding: 10px;
+    }
     .news-box {
         height: auto;
     }
@@ -1428,9 +1489,9 @@ h1.section-title span {
     .footer {
         text-align: center
     }
-    .footer img {
-        height: 100px
-    }
+    // .footer img {
+    //     height: 100px
+    // }
     /*.news-box img {
         width: 100%
     }
@@ -1523,60 +1584,18 @@ h1.section-title span {
         margin-top: 10px
     }
 }
-nav.navbar {
-    border: 2px solid #00816d;
-    border-radius: 0;
-    padding: 5px;
-    margin: 15px 0
-}
-.nav-justified {
-    text-transform: uppercase;
-    border: 2px dotted #00816d;
-    border-radius: 0
-}
-.nav-justified li {
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    position: relative
-}
-.nav-justified li:after {
-    content: "/";
-    position: absolute;
-    right: -2px;
-    top: 35%
-}
-.nav-justified li.last:after {
-    content: ""
-}
-.nav-justified>li>a {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 0;
-    color: #000;
-    text-align: center;
-    background: 0 0;
-    font-size: 18px;
-    position: relative;
-    font-family: 'Fjalla one'
-}
-.nav-justified>li>a:hover,
-.nav-justified>li>a.current {
-    color: #8c0000;
-    background: 0 0;
-    font-size: 18px
-}
-.nav-justified>.active>a,
-.nav-justified>.active>a:hover {
-    color: #8c0000
-}
+
 @media (max-width: 767px) {
-    .nav-justified li:after {
+    .nav li:after {
         display: none
+    }
+    .nav li {
+        display: block;
     }
 }
 @media (min-width: 768px) {
-    .nav-justified {
-        max-height: 70px
+    .nav {
+        
     }
 }
 ::-webkit-input-placeholder {

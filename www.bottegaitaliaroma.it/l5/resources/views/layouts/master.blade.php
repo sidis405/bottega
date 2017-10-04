@@ -12,17 +12,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/vendor.css">
-    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
     <link href="/cfg-contactform-13/css/contactform.css" rel="stylesheet" type="text/css" />
     @yield('og')
     <link rel="stylesheet" href="/css/main.css">
     <script src="/js/modernizr.js"></script>
     <link rel="shortcut icon" href="/favicon.ico">
-    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Diplomata+SC|Oswald:400,700,300|Pacifico:400' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Arvo:400,700|Diplomata+SC|Oswald:400,700,300|Pacifico:400' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <!--[if lt IE 7]>
-    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="//browsehappy.com/">upgrade your browser</a> or <a href="//www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
     <div class="container">
       <div class="topbar"></div>
@@ -58,13 +58,14 @@
         <h5>Menu</h5>
       </div>
       <nav class="navbar">
-        <ul class="nav nav-justified">
+        <ul class="nav">
           <li {{ checkActivePath('ristorante')}} ><a class="" href="/ristorante.html">Ristorante</a></li>
           <li {{ checkActivePath('gelateria')}} ><a href="/gelateria.html">Pasticceria e Gelateria</a></li>
           <li {{ checkActivePath('caffe')}} ><a class="" href="/caffe.html">Caffè</a></li>
           <li {{ checkActivePath('friggitoria')}} ><a class="" href="/friggitoria.html">Friggitoria</a></li>
           <li {{ checkActivePath('market')}} ><a class="" href="/market.html">Market</a></li>
-          <li class="last {{ checkActivePath('pizza', true)}}"><a href="/pizza.html">Pizza e Grill</a></li>
+          <li class="{{ checkActivePath('pizza', true)}}"><a href="/pizza.html">Pizza e Grill</a></li>
+          <li class="last"><a href="/team-building.html">Team Building</a></li>
         </ul>
       </nav>
     </div>
